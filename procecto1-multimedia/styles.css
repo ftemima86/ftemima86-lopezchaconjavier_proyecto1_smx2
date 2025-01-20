@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.6;
+    box-sizing: border-box;
+  }
+  
+  /* --- HEADER --- */
+  
+  .header__nav {
+    padding: 10px 0;
+    background-color: #333;
+    display: flex;
+  }
+  
+  .logo {
+    width: 70px;
+    position: relative;
+    right: -30px;
+  }
+  
+  .header__ul {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .header__item {
+    min-width: 120px;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .link--iniciar-sesion {
+    padding: 10px 20px;
+    border: 2px solid #eee;
+    border-radius: 100px;
+    margin-left: 50px;
+  }
+  
+  .header__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s;
+  }
+  
+  .header__link:hover {
+    color: #fff4;
+  }
+  
+  .link--iniciar-sesion:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  
+  
+  /* --- MAIN --- */
+  
+  main {
+    display: flex;
+  }
+  
+  .section__titulo {
+    font-family: Montserrat;
+    font-weight: 900;
+  }
+  
+  p {
+    margin: 20px 0;
+  }
+  
+  .espacio {
+    flex: 1;
+  }
+  
+  .section {
+    max-width: 100%;
+    flex: 1;
+  }
+  
+  .section__titulo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .video {
+    display: flex;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+  }
+  
+  iframe {
+    border-radius: 20px;
+    border: #333;
+  }
+  
+  video {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #000;
+  }
+  
+  .audio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .copyright {
+    margin-top: 5px;
+    color: #aaa;
+    font-size: .8em;
+    font-style: italic;
+  }
+  
+  /* --- FOOTER -- */
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-weight: 100;
+  }
+  
+  /* --- MEDIA --- */
+  
+  @media screen and (max-width: 1200px) {
+    .section__parrafo {
+      padding: 0 20px;
+    }
+  }
+  
